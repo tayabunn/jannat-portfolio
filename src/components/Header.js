@@ -11,6 +11,9 @@ import {
   PiChatDotsBold,
   PiSunBold,
   PiMoonStarsBold,
+  PiGithubLogoBold,
+  PiLinkedinLogoBold,
+  PiBehanceLogoBold,
 } from 'react-icons/pi';
 const navItems = [
   { label: 'Home',      href: '#home',      Icon: PiHouseSimpleBold },
@@ -110,7 +113,24 @@ export default function Header() {
       {/* Navigation Menu End */}
 
       {/* Header Controls Start */}
-      <div className="header__controls d-flex justify-content-end">
+      <div className="header__controls d-flex justify-content-end align-items-center">
+        
+        {/* Social Icons in Header */}
+        <div className="header__socials d-none d-lg-flex align-items-center me-4" style={{ gap: '18px' }}>
+          <a href="https://github.com/tayabunn" target="_blank" rel="noreferrer" style={{ color: 'inherit', display: 'flex', transition: 'color 0.3s' }}>
+            <PiGithubLogoBold size={22} />
+          </a>
+          <a href="https://linkedin.com/" target="_blank" rel="noreferrer" style={{ color: 'inherit', display: 'flex', transition: 'color 0.3s' }}>
+            <PiLinkedinLogoBold size={22} />
+          </a>
+          <a href="https://www.behance.net/" target="_blank" rel="noreferrer" style={{ color: 'inherit', display: 'flex', transition: 'color 0.3s' }}>
+            <PiBehanceLogoBold size={22} />
+          </a>
+          <a href="mailto:tayabunnesa@gmail.com" style={{ color: 'inherit', display: 'flex', transition: 'color 0.3s' }}>
+            <PiEnvelopeBold size={22} />
+          </a>
+        </div>
+
         <button 
           id="color-switcher" 
           className="color-switcher header__switcher btn" 

@@ -1,3 +1,10 @@
+import { 
+  PiGithubLogoBold, 
+  PiLinkedinLogoBold, 
+  PiBehanceLogoBold, 
+  PiDribbbleLogoBold 
+} from 'react-icons/pi';
+
 export default function ContactSection() {
   return (
     <section id="contact" className="inner contact">
@@ -64,11 +71,16 @@ export default function ContactSection() {
       {/* Socials Cards */}
       <div className="content__block grid-block">
         <div className="socials-cards d-flex justify-content-start flex-wrap">
-          {['github', 'linkedin', 'behance', 'dribbble'].map((social) => (
-            <div key={social} className="socials-cards__item d-flex grid-item-s animate-card-5">
+          {[
+            { id: 'github', Icon: PiGithubLogoBold, url: 'https://github.com/tayabunn' },
+            { id: 'linkedin', Icon: PiLinkedinLogoBold, url: 'https://linkedin.com/' },
+            { id: 'behance', Icon: PiBehanceLogoBold, url: 'https://www.behance.net/' },
+            { id: 'dribbble', Icon: PiDribbbleLogoBold, url: 'https://dribbble.com/' },
+          ].map((social) => (
+            <div key={social.id} className="socials-cards__item d-flex grid-item-s animate-card-5">
               <div className="socials-cards__card">
-                <i className={`ph-bold ph-${social}-logo`}></i>
-                <a className="socials-cards__link" href={social === 'github' ? 'https://github.com/tayabunn' : `https://${social}.com/`} target="_blank"></a>
+                <social.Icon size={32} />
+                <a className="socials-cards__link" href={social.url} target="_blank" rel="noreferrer"></a>
               </div>
             </div>
           ))}

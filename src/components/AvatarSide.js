@@ -1,5 +1,11 @@
 import Image from 'next/image';
-
+import { 
+  PiGithubLogoBold, 
+  PiLinkedinLogoBold, 
+  PiBehanceLogoBold, 
+  PiDribbbleLogoBold, 
+  PiEnvelopeBold 
+} from 'react-icons/pi';
 export default function AvatarSide() {
   return (
     <div id="avatar" className="avatar">
@@ -57,19 +63,19 @@ export default function AvatarSide() {
           <div className="avatar__socials">
             <ul className="socials-square d-flex justify-content-between">
               <li className="socials-square__item">
-                <a className="socials-square__link btn" href="https://github.com/tayabunn" target="_blank"><i className="ph-bold ph-github-logo"></i></a>
+                <a className="socials-square__link btn" href="https://github.com/tayabunn" target="_blank"><PiGithubLogoBold size={24} /></a>
               </li>
               <li className="socials-square__item">
-                <a className="socials-square__link btn" href="https://linkedin.com/" target="_blank"><i className="ph-bold ph-linkedin-logo"></i></a>
+                <a className="socials-square__link btn" href="https://linkedin.com/" target="_blank"><PiLinkedinLogoBold size={24} /></a>
               </li>
               <li className="socials-square__item">
-                <a className="socials-square__link btn" href="https://www.behance.net/" target="_blank"><i className="ph-bold ph-behance-logo"></i></a>
+                <a className="socials-square__link btn" href="https://www.behance.net/" target="_blank"><PiBehanceLogoBold size={24} /></a>
               </li>
               <li className="socials-square__item">
-                <a className="socials-square__link btn" href="https://dribbble.com/" target="_blank"><i className="ph-bold ph-dribbble-logo"></i></a>
+                <a className="socials-square__link btn" href="https://dribbble.com/" target="_blank"><PiDribbbleLogoBold size={24} /></a>
               </li>
               <li className="socials-square__item">
-                <a className="socials-square__link btn" href="mailto:tayabunnesa@gmail.com"><i className="ph-bold ph-envelope"></i></a>
+                <a className="socials-square__link btn" href="mailto:tayabunnesa@gmail.com"><PiEnvelopeBold size={24} /></a>
               </li>
             </ul>
           </div>

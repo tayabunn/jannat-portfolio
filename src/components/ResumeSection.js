@@ -1,6 +1,15 @@
 'use client';
 
 import { useEffect } from 'react';
+import { 
+  SiFigma, 
+  SiReact, 
+  SiNextdotjs, 
+  SiTailwindcss, 
+  SiGithub 
+} from 'react-icons/si';
+import { DiIllustrator, DiPhotoshop } from 'react-icons/di';
+import { TbBrandAdobeIndesign } from 'react-icons/tb';
 import Swiper from 'swiper';
 import { Navigation } from 'swiper/modules';
 import 'swiper/css';
@@ -183,11 +192,20 @@ export default function ResumeSection() {
       </div>
       <div className="content__block grid-block block-large">
         <div className="tools-cards d-flex justify-content-start flex-wrap">
-          {['figma', 'illustrator', 'photoshop', 'indesign', 'react', 'next', 'tailwind', 'github'].map((tool) => (
-            <div key={tool} className="tools-cards__item d-flex grid-item-s animate-card-5">
+          {[
+            { id: 'figma', name: 'Figma', Icon: SiFigma },
+            { id: 'illustrator', name: 'Illustrator', Icon: DiIllustrator },
+            { id: 'photoshop', name: 'Photoshop', Icon: DiPhotoshop },
+            { id: 'indesign', name: 'InDesign', Icon: TbBrandAdobeIndesign },
+            { id: 'react', name: 'React', Icon: SiReact },
+            { id: 'next', name: 'Next.js', Icon: SiNextdotjs },
+            { id: 'tailwind', name: 'Tailwind', Icon: SiTailwindcss },
+            { id: 'github', name: 'GitHub', Icon: SiGithub },
+          ].map((tool) => (
+            <div key={tool.id} className="tools-cards__item d-flex grid-item-s animate-card-5">
               <div className="tools-cards__card">
-                <img className="tools-cards__icon animate-in-up" src={`/img/icons/icon-${tool}.svg`} alt="Tools Icon" />
-                <h6 className="tools-cards__caption animate-in-up">{tool === 'next' ? 'Next.js' : tool === 'react' ? 'React' : tool.charAt(0).toUpperCase() + tool.slice(1)}</h6>
+                <tool.Icon size={40} className="tools-cards__icon animate-in-up" />
+                <h6 className="tools-cards__caption animate-in-up">{tool.name}</h6>
               </div>
             </div>
           ))}
