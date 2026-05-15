@@ -396,6 +396,7 @@ $(function() {
 // --------------------------------------------- //
 // Color Switch Start
 // --------------------------------------------- //
+/*
 const themeBtn = document.querySelector('.color-switcher');
 
 function getCurrentTheme(){
@@ -428,6 +429,7 @@ themeBtn.addEventListener('click', () => {
 window.addEventListener('DOMContentLoaded', () => {
   loadTheme(getCurrentTheme());
 });
+*/
 // --------------------------------------------- //
 // Color Switch End
 // --------------------------------------------- //

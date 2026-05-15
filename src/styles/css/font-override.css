@@ -1,0 +1,21 @@
+/* =============================================
+   Global Font Override — Syne everywhere
+   Imported last in layout.js so it wins over
+   all template CSS (main.css, plugins.css)
+   ============================================= */
+
+*,
+*::before,
+*::after,
+html,
+body,
+input,
+textarea,
+select,
+button {
+  font-family: var(--font-syne), 'Syne', sans-serif !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}

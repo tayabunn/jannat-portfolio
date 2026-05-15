@@ -1,9 +1,10 @@
 import '../styles/css/loaders/loader.css';
 import '../styles/css/plugins.css';
 import '../styles/css/main.css';
-import { Inter } from 'next/font/google';
+import '../styles/css/font-override.css';
+import { Syne } from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'] });
+const syne = Syne({ subsets: ['latin'], weight: ['400', '500', '600', '700', '800'], variable: '--font-syne' });
 
 
 export const viewport = {
@@ -20,8 +21,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" dir="ltr" suppressHydrationWarning>
-      <body className={inter.className}>
+    <html lang="en" dir="ltr" suppressHydrationWarning className={syne.variable}>
+      <body className={syne.className}>
         {children}
       </body>
     </html>
