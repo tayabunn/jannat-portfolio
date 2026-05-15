@@ -31,25 +31,25 @@ export default function AvatarSide() {
               </svg>
             </div>
             <div className="logo__caption">
-              <p>Tayabun<br/>Nesa Jannat</p>
+              <p>Tayabun<br/>Jannat</p>
             </div>
           </div>
           <div className="avatar__image">
-            <img src="/img/my-image.jpg" alt="Tayabun Nesa Jannat - Personal Portfolio & Resume" />
+            <img src="/img/my-image.jpg" alt="Tayabun Jannat - Personal Portfolio & Resume" />
           </div>
         </div>
         {/* data caption #1 */}
         <div className="avatar__block">
           <h6>
             <small className="top">Specialization:</small>
-            UI/UX designer<br/>and frontend developer
+            Frontend Developer<br/>& Graphic Designer
           </h6>
         </div>
         {/* data caption #2 */}
         <div className="avatar__block">
           <h6>
             <small className="top">Based in:</small>
-            Odesa, Ukraine
+            Dhaka, Bangladesh
           </h6>
         </div>
         {/* socials and CTA button */}
@@ -57,19 +57,19 @@ export default function AvatarSide() {
           <div className="avatar__socials">
             <ul className="socials-square d-flex justify-content-between">
               <li className="socials-square__item">
-                <a className="socials-square__link btn" href="https://dribbble.com/" target="_blank"><i className="ph-bold ph-dribbble-logo"></i></a>
+                <a className="socials-square__link btn" href="https://github.com/tayabunn" target="_blank"><i className="ph-bold ph-github-logo"></i></a>
+              </li>
+              <li className="socials-square__item">
+                <a className="socials-square__link btn" href="https://linkedin.com/" target="_blank"><i className="ph-bold ph-linkedin-logo"></i></a>
               </li>
               <li className="socials-square__item">
                 <a className="socials-square__link btn" href="https://www.behance.net/" target="_blank"><i className="ph-bold ph-behance-logo"></i></a>
               </li>
               <li className="socials-square__item">
-                <a className="socials-square__link btn" href="https://www.instagram.com/" target="_blank"><i className="ph-bold ph-instagram-logo"></i></a>
+                <a className="socials-square__link btn" href="https://dribbble.com/" target="_blank"><i className="ph-bold ph-dribbble-logo"></i></a>
               </li>
               <li className="socials-square__item">
-                <a className="socials-square__link btn" href="https://www.twitch.tv/" target="_blank"><i className="ph-bold ph-twitch-logo"></i></a>
-              </li>
-              <li className="socials-square__item">
-                <a className="socials-square__link btn" href="https://www.pinterest.com/" target="_blank"><i className="ph-bold ph-pinterest-logo"></i></a>
+                <a className="socials-square__link btn" href="mailto:tayabunnesa@gmail.com"><i className="ph-bold ph-envelope"></i></a>
               </li>
             </ul>
           </div>

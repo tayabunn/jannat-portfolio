@@ -11,7 +11,7 @@ export default function AboutSection() {
           </svg>
           <span>About Me</span>
         </p>
-        <h2 className="h2__title animate-in-up">Turning complex problems into simple design</h2>
+        <h2 className="h2__title animate-in-up">Graphic Designer transitioning into Frontend Development</h2>
       </div>
       {/* Content Block - H2 Section Title End */}
 
@@ -28,7 +28,7 @@ export default function AboutSection() {
           {/* achievements single item */}
           <div className="achievements__item d-flex flex-column grid-item animate-card-3">
             <div className="achievements__card">
-              <p className="achievements__number">2+</p>
+              <p className="achievements__number">6+</p>
               <p className="achievements__descr">Years of experience</p>
             </div>
           </div>
@@ -51,18 +51,10 @@ export default function AboutSection() {
             {/* About Me Description Start */}
             <div className="col-12 col-xl-8 grid-item about-descr">
               <p className="about-descr__text animate-in-up">
-                I wonder if I've been changed in the night? Let me think. Was I the same when I got up this morning? 
-                I almost think I can remember feeling a little different. 
-                But if I'm not the same, the 
-                <a href="#0" className="text-link">next question</a> 
-                is 'Who in the world am I?' Ah, that's the great puzzle!
+                Graphic Designer transitioning into Frontend Development with a passion for building clean, user-focused digital experiences. With over 6 years of experience in graphic design and content creation, I bring a strong eye for aesthetics, layout, and user behavior.
               </p>
               <p className="about-descr__text animate-in-up">
-                Be what you would seem to be - or, if you'd like it put more simply - never imagine yourself not to be otherwise 
-                than what it might appear to others that what you were or 
-                <a href="#0" className="text-link">might have been</a> 
-                was not otherwise than what you had been 
-                would have appeared to them to be otherwise.
+                Now combining design expertise with development skills in React.js and Next.js to create functional and visually engaging web applications. In a fast-paced world driven by AI, I am continuously upskilling to stay ahead and deliver smarter, future-ready solutions.
               </p>
               <div className="btn-group about-descr__btnholder animate-in-up">
                 <a className="btn mobile-vertical btn-default btn-hover btn-hover-accent" href="#0">
@@ -78,28 +70,28 @@ export default function AboutSection() {
               <div className="about-info__item animate-in-up">
                 <h6>
                   <small className="top">Name</small>
-                  Tayabun Nesa Jannat
+                  Tayabun Jannat
                 </h6>
                 <div className="about-info__image animate-in-up" style={{ marginTop: '20px' }}>
-                  <img src="/img/my-image.jpg" alt="Tayabun Nesa Jannat" style={{ width: '150px', borderRadius: '10px' }} />
+                  <img src="/img/my-image.jpg" alt="Tayabun Jannat" style={{ width: '150px', borderRadius: '10px' }} />
                 </div>
               </div>
               <div className="about-info__item animate-in-up">
                 <h6>
                   <small className="top">Phone</small>
-                  <a className="text-link-bold" href="tel:+12127089400">+1 212-708-9400</a>
+                  <a className="text-link-bold" href="tel:+8801700000000">+880 1700-000000</a>
                 </h6>
               </div>
               <div className="about-info__item animate-in-up">
                 <h6>
                   <small className="top">Email</small>
-                  <a className="text-link-bold" href="mailto:example@example.com?subject=Message%20from%20your%20site">hello@yourdomain.com</a>
+                  <a className="text-link-bold" href="mailto:tayabunnesa@gmail.com?subject=Message%20from%20your%20site">tayabunnesa@gmail.com</a>
                 </h6>
               </div>
               <div className="about-info__item animate-in-up">
                 <h6>
                   <small className="top">Location</small>
-                  <a className="text-link-bold" href="https://maps.app.goo.gl/xMJXTEUeHkv6kYRQ6" target="_blank">Odesa, Ukraine</a>
+                  <a className="text-link-bold" href="https://maps.app.goo.gl/xMJXTEUeHkv6kYRQ6" target="_blank">Dhaka, Bangladesh</a>
                 </h6>
               </div>
             </div>
@@ -120,10 +112,11 @@ export default function AboutSection() {
                 <div className="cards__descr">
                   <h4 className="cards__title animate-in-up">Frontend<br/>development</h4>
                   <div className="cards__tags d-flex flex-wrap animate-in-up">
-                    <span className="rounded-tag tag-outline">UI/UX Design</span>
-                    <span className="rounded-tag tag-outline">Design to Code</span>
+                    <span className="rounded-tag tag-outline">React.js</span>
+                    <span className="rounded-tag tag-outline">Next.js</span>
+                    <span className="rounded-tag tag-outline">Tailwind CSS</span>
                   </div>
-                  <p className="small cards__text animate-in-up">I work with HTML/CSS, Framer and WordPress.</p>
+                  <p className="small cards__text animate-in-up">I build responsive, high-performance web applications using modern technologies.</p>
                 </div>
                 <div className="cards__image d-flex animate-in-up">
                   <img src="https://dummyimage.com/1200x900/4d4d4d/636363" alt="Service/Feature Image" />

@@ -11,7 +11,7 @@ export default function HomeSection() {
           </svg>
           <span>Let's meet!</span>
         </p>
-        <h1 className="headline__title animate-headline">I'm Tayabun Nesa Jannat<br/>Digital designer and illustrator.</h1>
+        <h1 className="headline__title animate-headline">I'm Tayabun Jannat<br/>Frontend Developer & Graphic Designer.</h1>
         <div className="headline__btnholder d-flex flex-column flex-sm-row">
           <a className="btn mobile-vertical btn-default btn-hover btn-hover-accent-mobile animate-headline" href="#portfolio">
             <span className="btn-caption">My Works</span>

@@ -1,4 +1,4 @@
-/*! ------------------------------------------------
+﻿/*! ------------------------------------------------
  * Project Name: Name: Braxton - Personal Portfolio & Resume HTML Template
  * Project Description: Show yourself brightly with Braxton - unique and creative portfolio and resume template!
  * Tags: mix_design, resume, portfolio, personal page, cv, template, one page, responsive, html5, css3, creative, clean 
@@ -4278,3 +4278,17 @@ form textarea:required:valid {
 /* ------------------------------------------------*/
 /* Features Socials End */
 /* ------------------------------------------------*/
+
+
+/* Custom Portfolio Hover Effect */
+.gallery__link {
+  display: block;
+  overflow: hidden;
+  border-radius: var(--_radius-m);
+}
+.gallery__image {
+  transition: transform 0.6s var(--_animbezier) !important;
+}
+.gallery__link:hover .gallery__image {
+  transform: scale(1.08);
+}

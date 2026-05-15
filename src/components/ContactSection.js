@@ -64,11 +64,11 @@ export default function ContactSection() {
       {/* Socials Cards */}
       <div className="content__block grid-block">
         <div className="socials-cards d-flex justify-content-start flex-wrap">
-          {['dribbble', 'behance', 'instagram', 'twitch', 'pinterest'].map((social) => (
+          {['github', 'linkedin', 'behance', 'dribbble'].map((social) => (
             <div key={social} className="socials-cards__item d-flex grid-item-s animate-card-5">
               <div className="socials-cards__card">
                 <i className={`ph-bold ph-${social}-logo`}></i>
-                <a className="socials-cards__link" href={`https://${social}.com/`} target="_blank"></a>
+                <a className="socials-cards__link" href={social === 'github' ? 'https://github.com/tayabunn' : `https://${social}.com/`} target="_blank"></a>
               </div>
             </div>
           ))}
@@ -79,7 +79,7 @@ export default function ContactSection() {
       <div className="content__block">
         <div className="teaser">
           <p className="teaser__text animate-in-up">Want to know more about me, tell me about your project or just to say hello? 
-            <a className="text-link-bold" href="mailto:example@example.com?subject=Message%20from%20your%20site">Drop me a line</a> and I'll get back as soon as possible.
+            <a className="text-link-bold" href="mailto:tayabunnesa@gmail.com?subject=Message%20from%20your%20site">Drop me a line</a> and I'll get back as soon as possible.
           </p>
         </div>
       </div>
@@ -91,19 +91,19 @@ export default function ContactSection() {
             <div className="col-12 col-md-4 contact-lines__data">
               <p className="contact-lines__title animate-in-up">Location</p>
               <p className="contact-lines__text animate-in-up">
-                <a className="text-link-bold" href="https://maps.app.goo.gl/xMJXTEUeHkv6kYRQ6" target="_blank">Odesa, Ukraine</a>
+                <a className="text-link-bold" href="https://maps.app.goo.gl/xMJXTEUeHkv6kYRQ6" target="_blank">Dhaka, Bangladesh</a>
               </p>
             </div>
             <div className="col-12 col-md-4 contact-lines__data">
               <p className="contact-lines__title animate-in-up">Phone</p>
               <p className="contact-lines__text animate-in-up">
-                <a className="text-link-bold" href="tel:+12127089400">+1 212-708-9400</a>
+                <a className="text-link-bold" href="tel:+8801700000000">+880 1700-000000</a>
               </p>
             </div>
             <div className="col-12 col-md-4 contact-lines__data">
               <p className="contact-lines__title animate-in-up">Email</p>
               <p className="contact-lines__text animate-in-up">
-                <a className="text-link-bold" href="mailto:example@example.com?subject=Message%20from%20your%20site">hello@alexwalker.com</a>
+                <a className="text-link-bold" href="mailto:tayabunnesa@gmail.com?subject=Message%20from%20your%20site">tayabunnesa@gmail.com</a>
               </p>
             </div>
           </div>

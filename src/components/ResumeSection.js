@@ -39,11 +39,7 @@ export default function ResumeSection() {
         </p>
         <h2 className="h2__title animate-in-up">Education and practical experience</h2>
         <p className="h2__text animate-in-up">
-          Be what you would seem to be - or, if you'd like it put more simply - never imagine yourself not to be otherwise 
-          than what it might appear to others that what you were or 
-          <a href="#0" className="text-link">might have been</a> 
-          was not otherwise than what you had been 
-          would have appeared to them to be otherwise.
+          Graphic Designer with over 6 years of experience, now transitioning into Frontend Development with a focus on React.js and Next.js.
         </p>
       </div>
       {/* Content Block - H2 Section Title End */}
@@ -57,46 +53,44 @@ export default function ResumeSection() {
           {/* education single item */}
           <div className="row g-0 resume-lines__item animate-in-up">
             <div className="col-12 col-md-2">
-              <span className="resume-lines__date animate-in-up">2015 - 2016</span>
+              <span className="resume-lines__date animate-in-up">2025 - 2026</span>
             </div>
             <div className="col-12 col-md-5">
-              <h5 className="resume-lines__title animate-in-up">Drawing Concentration</h5>
+              <h5 className="resume-lines__title animate-in-up">Front-End Web Development</h5>
               <p className="resume-lines__source animate-in-up">Course by
-                <a href="#0" className="text-link-bold" target="_blank">New York Academy of Art</a>
+                <a href="#0" className="text-link-bold" target="_blank">Programming Hero</a>
               </p>
             </div>
             <div className="col-12 col-md-5">
-              <p className="small resume-lines__descr animate-in-up">Intensive drawing courses that present the fundamental principles of drawing.</p>
+              <p className="small resume-lines__descr animate-in-up">Focusing on React.js, Next.js, JavaScript (ES6+), Tailwind CSS, REST APIs, and MongoDB.</p>
             </div>
           </div>
-          {/* education single item */}
           <div className="row g-0 resume-lines__item animate-in-up">
             <div className="col-12 col-md-2">
-              <span className="resume-lines__date animate-in-up">2019 - 2021</span>
+              <span className="resume-lines__date animate-in-up">2023 - 2024</span>
             </div>
             <div className="col-12 col-md-5">
-              <h5 className="resume-lines__title animate-in-up">UI/UX Design Specialization</h5>
-              <p className="resume-lines__source animate-in-up">Course by 
-                <a href="#0" className="text-link-bold" target="_blank">California Institute of Arts</a>
+              <h5 className="resume-lines__title animate-in-up">Master of Arts in English</h5>
+              <p className="resume-lines__source animate-in-up">Degree from 
+                <a href="#0" className="text-link-bold" target="_blank">Government Titumir College</a>
               </p>
             </div>
             <div className="col-12 col-md-5">
-              <p className="small resume-lines__descr animate-in-up">Research, design, and prototype effective, visually-driven websites and apps.</p>
+              <p className="small resume-lines__descr animate-in-up">Advanced studies in English literature and language.</p>
             </div>
           </div>
-          {/* education single item */}
           <div className="row g-0 resume-lines__item animate-in-up">
             <div className="col-12 col-md-2">
-              <span className="resume-lines__date animate-in-up">2022</span>
+              <span className="resume-lines__date animate-in-up">2019 - 2022</span>
             </div>
             <div className="col-12 col-md-5">
-              <h5 className="resume-lines__title animate-in-up">UI/UX Designer</h5>
-              <p className="resume-lines__source animate-in-up"> Course by
-                <a href="#0" className="text-link-bold" target="_blank">Coursera</a>
+              <h5 className="resume-lines__title animate-in-up">Bachelor of Arts in English</h5>
+              <p className="resume-lines__source animate-in-up"> Degree from
+                <a href="#0" className="text-link-bold" target="_blank">Government Titumir College</a>
               </p>
             </div>
             <div className="col-12 col-md-5">
-              <p className="small resume-lines__descr animate-in-up">This cource is about how to complete the design process from beginning to end.</p>
+              <p className="small resume-lines__descr animate-in-up">English Language & Literature foundation.</p>
             </div>
           </div>
         </div>
@@ -110,44 +104,72 @@ export default function ResumeSection() {
         <div className="container-fluid p-0 resume-lines">
           <div className="row g-0 resume-lines__item animate-in-up">
             <div className="col-12 col-md-2">
-              <span className="resume-lines__date animate-in-up">2018 - 2019</span>
-            </div>
-            <div className="col-12 col-md-5">
-              <h5 className="resume-lines__title animate-in-up">Illustrator</h5>
-              <p className="resume-lines__source animate-in-up">in the 
-                <a href="#0" className="text-link-bold" target="_blank">Creative Mind</a> agency
-              </p>
-            </div>
-            <div className="col-12 col-md-5">
-              <p className="small resume-lines__descr animate-in-up">I created original images for a range of digital and printed products.</p>
-            </div>
-          </div>
-          <div className="row g-0 resume-lines__item animate-in-up">
-            <div className="col-12 col-md-2">
-              <span className="resume-lines__date animate-in-up">2019 - 2021</span>
+              <span className="resume-lines__date animate-in-up">2025 - Now</span>
             </div>
             <div className="col-12 col-md-5">
               <h5 className="resume-lines__title animate-in-up">Graphic Designer</h5>
-              <p className="resume-lines__source animate-in-up">in the
-                <a href="#0" className="text-link-bold" target="_blank">Moon Light</a> agency
+              <p className="resume-lines__source animate-in-up">at 
+                <a href="#0" className="text-link-bold" target="_blank">DHEO</a>
               </p>
             </div>
             <div className="col-12 col-md-5">
-              <p className="small resume-lines__descr animate-in-up">My job was to create adverts, branding, signage and other media products.</p>
+              <p className="small resume-lines__descr animate-in-up">Contributing to visual communication and design projects.</p>
             </div>
           </div>
           <div className="row g-0 resume-lines__item animate-in-up">
             <div className="col-12 col-md-2">
-              <span className="resume-lines__date animate-in-up">2021 - now</span>
+              <span className="resume-lines__date animate-in-up">2025 - 2026</span>
             </div>
             <div className="col-12 col-md-5">
-              <h5 className="resume-lines__title animate-in-up">UI/UX Designer</h5>
-              <p className="resume-lines__source animate-in-up">in the
-                <a href="#0" className="text-link-bold" target="_blank">Moon Light</a> agency
+              <h5 className="resume-lines__title animate-in-up">Graphic Designer</h5>
+              <p className="resume-lines__source animate-in-up">at 
+                <a href="#0" className="text-link-bold" target="_blank">TechSpire Labs Inc.</a>
               </p>
             </div>
             <div className="col-12 col-md-5">
-              <p className="small resume-lines__descr animate-in-up">I am actively involved in creating user interfaces for mobile apps and websites.</p>
+              <p className="small resume-lines__descr animate-in-up">Designed graphics and visual assets for a tech company.</p>
+            </div>
+          </div>
+          <div className="row g-0 resume-lines__item animate-in-up">
+            <div className="col-12 col-md-2">
+              <span className="resume-lines__date animate-in-up">2025</span>
+            </div>
+            <div className="col-12 col-md-5">
+              <h5 className="resume-lines__title animate-in-up">Visual Intern</h5>
+              <p className="resume-lines__source animate-in-up">at 
+                <a href="#0" className="text-link-bold" target="_blank">GAOTek Inc.</a> (New York, USA)
+              </p>
+            </div>
+            <div className="col-12 col-md-5">
+              <p className="small resume-lines__descr animate-in-up">Gaining international exposure in design workflows and visual content creation.</p>
+            </div>
+          </div>
+          <div className="row g-0 resume-lines__item animate-in-up">
+            <div className="col-12 col-md-2">
+              <span className="resume-lines__date animate-in-up">2023 - 2024</span>
+            </div>
+            <div className="col-12 col-md-5">
+              <h5 className="resume-lines__title animate-in-up">Graphic Designer & Content Writer</h5>
+              <p className="resume-lines__source animate-in-up">at 
+                <a href="#0" className="text-link-bold" target="_blank">Biproteep</a>
+              </p>
+            </div>
+            <div className="col-12 col-md-5">
+              <p className="small resume-lines__descr animate-in-up">Designed print and digital marketing materials and illustrations.</p>
+            </div>
+          </div>
+          <div className="row g-0 resume-lines__item animate-in-up">
+            <div className="col-12 col-md-2">
+              <span className="resume-lines__date animate-in-up">2019 - 2023</span>
+            </div>
+            <div className="col-12 col-md-5">
+              <h5 className="resume-lines__title animate-in-up">Managing Director</h5>
+              <p className="resume-lines__source animate-in-up">at 
+                <a href="#0" className="text-link-bold" target="_blank">Team Hactor</a>
+              </p>
+            </div>
+            <div className="col-12 col-md-5">
+              <p className="small resume-lines__descr animate-in-up">Founded and led Team Hactor, managing operations and team coordination.</p>
             </div>
           </div>
         </div>
@@ -161,11 +183,11 @@ export default function ResumeSection() {
       </div>
       <div className="content__block grid-block block-large">
         <div className="tools-cards d-flex justify-content-start flex-wrap">
-          {['photoshop', 'figma', 'illustrator', 'sketch', 'blender', 'html', 'css', 'notion'].map((tool) => (
+          {['figma', 'illustrator', 'photoshop', 'indesign', 'react', 'next', 'tailwind', 'github'].map((tool) => (
             <div key={tool} className="tools-cards__item d-flex grid-item-s animate-card-5">
               <div className="tools-cards__card">
                 <img className="tools-cards__icon animate-in-up" src={`/img/icons/icon-${tool}.svg`} alt="Tools Icon" />
-                <h6 className="tools-cards__caption animate-in-up">{tool.charAt(0).toUpperCase() + tool.slice(1)}</h6>
+                <h6 className="tools-cards__caption animate-in-up">{tool === 'next' ? 'Next.js' : tool === 'react' ? 'React' : tool.charAt(0).toUpperCase() + tool.slice(1)}</h6>
               </div>
             </div>
           ))}
@@ -195,7 +217,7 @@ export default function ResumeSection() {
                       <img src="https://dummyimage.com/400x400/4d4d4d/636363" alt="Review Author" />
                     </div>
                     <div className="tauthor__info d-flex flex-column justify-content-center">
-                      <p className="tauthor__name">Tayabun Nesa</p>
+                      <p className="tauthor__name">Tayabun Jannat</p>
                       <p className="tauthor__position">Brand Manager in <a href="#0" className="text-link-bold" target="_blank">Instant Design</a></p>
                       <div className="tauthor__rating d-flex">
                         {[1, 2, 3, 4, 5].map((i) => <i key={i} className="ph-fill ph-star"></i>)}

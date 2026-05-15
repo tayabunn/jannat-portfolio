@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function PortfolioSection() {
   return (
     <section id="portfolio" className="inner inner-first portfolio">
@@ -18,46 +20,45 @@ export default function PortfolioSection() {
       {/* Content Block - Works Gallery Start */}
       <div className="content__block grid-block">
         <div className="container-fluid px-0 inner__gallery">
+          <div className="row gx-0">
+            {/* Works Gallery Single Item Start */}
+            <figure className="col-12 col-md-6 gallery__item grid-item animate-card-2">
+              <a href="https://innovexa-2026.netlify.app/" target="_blank" className="gallery__link">
+                <Image src="/img/featured/innovexa.png" width={800} height={800} className="gallery__image" alt="Innovexa - Digital Agency" />
+              </a>
+              <figcaption className="gallery__descr">
+                <h5>Innovexa</h5>
+                <div className="card__tags d-flex flex-wrap">
+                  <span className="rounded-tag opposite">Landing Page</span>
+                  <span className="rounded-tag opposite">Tailwind CSS</span>
+                </div>
+                <p className="small">A modern, fully responsive landing page for a fictional digital agency, focused on a premium brand presence and clean UI.</p>
+              </figcaption>
+            </figure>
+            {/* Works Gallery Single Item End */}
+
+            {/* Works Gallery Single Item Start */}
+            <figure className="col-12 col-md-6 gallery__item grid-item animate-card-2">
+              <a href="https://sun-mart.vercel.app/" target="_blank" className="gallery__link">
+                <Image src="/img/featured/sunmart.png" width={800} height={800} className="gallery__image" alt="Sunmart - E-commerce Platform" />
+              </a>
+              <figcaption className="gallery__descr opposite">
+                <h5 className="opposite">Sunmart</h5>
+                <div className="card__tags d-flex flex-wrap">
+                  <span className="rounded-tag">E-commerce</span>
+                  <span className="rounded-tag">Next.js</span>
+                </div>
+                <p className="small">A high-performance e-commerce platform for grocery and daily essentials with a cinematic and premium design.</p>
+              </figcaption>
+            </figure>
+            {/* Works Gallery Single Item End */}
+          </div>
+
           <div className="row gx-0 my-gallery" itemScope itemType="http://schema.org/ImageGallery">
-
             {/* Works Gallery Single Item Start */}
             <figure className="col-12 col-md-6 gallery__item grid-item animate-card-2" itemProp="associatedMedia" itemScope itemType="http://schema.org/ImageObject">
               <a href="https://dummyimage.com/1400x1400/3c3c3c/636363" data-image="https://dummyimage.com/800x800/3c3c3c/636363" className="gallery__link" itemProp="contentUrl" data-size="1400x1400">
-                <img src="https://dummyimage.com/800x800/3c3c3c/636363" className="gallery__image" itemProp="thumbnail" alt="Image description" />
-              </a>
-              <figcaption className="gallery__descr" itemProp="caption description">
-                <h5>Isometric House</h5>
-                <div className="card__tags d-flex flex-wrap">
-                  <span className="rounded-tag opposite">Illustrations</span>
-                  <span className="rounded-tag opposite">3D Render</span>
-                </div>
-                <p className="small">Mauris porttitor lobortis ligula, quis molestie lorem scelerisque eu. Morbi aliquam enim odio.</p>
-              </figcaption>
-            </figure>
-            {/* Works Gallery Single Item End */}
-
-            {/* Works Gallery Single Item Start */}
-            <figure className="col-12 col-md-6 gallery__item grid-item animate-card-2" itemProp="associatedMedia" itemScope itemType="http://schema.org/ImageObject">
-              <a href="https://dummyimage.com/1400x1400/3c3c3c/636363" data-image="https://dummyimage.com/800x800/3c3c3c/636363" className="gallery__link" itemProp="contentUrl" data-size="1400x1400">
-                <img src="https://dummyimage.com/800x800/3c3c3c/636363" className="gallery__image" itemProp="thumbnail" alt="Image description" />
-              </a>
-              <figcaption className="gallery__descr opposite" itemProp="caption description">
-                <h5 className="opposite">Dashboard Template</h5>
-                <div className="card__tags d-flex flex-wrap">
-                  <span className="rounded-tag">UI Design</span>
-                  <span className="rounded-tag">Figma</span>
-                </div>
-                <p className="small">Mauris porttitor lobortis ligula, quis molestie lorem scelerisque eu. Morbi aliquam enim odio,
-                  a mollis ipsum tristique eu.
-                </p>
-              </figcaption>
-            </figure>
-            {/* Works Gallery Single Item End */}
-
-            {/* Works Gallery Single Item Start */}
-            <figure className="col-12 col-md-6 gallery__item grid-item animate-card-2" itemProp="associatedMedia" itemScope itemType="http://schema.org/ImageObject">
-              <a href="https://dummyimage.com/1400x1400/3c3c3c/636363" data-image="https://dummyimage.com/800x800/3c3c3c/636363" className="gallery__link" itemProp="contentUrl" data-size="1400x1400">
-                <img src="https://dummyimage.com/800x800/3c3c3c/636363" className="gallery__image" itemProp="thumbnail" alt="Image description" />
+                <Image src="https://dummyimage.com/800x800/3c3c3c/636363" width={800} height={800} className="gallery__image" itemProp="thumbnail" alt="Image description" />
               </a>
               <figcaption className="gallery__descr opposite" itemProp="caption description">
                 <h5 className="opposite">Notification Icon</h5>
@@ -75,7 +76,7 @@ export default function PortfolioSection() {
             {/* Works Gallery Single Item Start */}
             <figure className="col-12 col-md-6 gallery__item grid-item animate-card-2" itemProp="associatedMedia" itemScope itemType="http://schema.org/ImageObject">
               <a href="https://dummyimage.com/1400x1400/3c3c3c/636363" data-image="https://dummyimage.com/800x800/3c3c3c/636363" className="gallery__link" itemProp="contentUrl" data-size="1400x1400">
-                <img src="https://dummyimage.com/800x800/3c3c3c/636363" className="gallery__image" itemProp="thumbnail" alt="Image description" />
+                <Image src="https://dummyimage.com/800x800/3c3c3c/636363" width={800} height={800} className="gallery__image" itemProp="thumbnail" alt="Image description" />
               </a>
               <figcaption className="gallery__descr" itemProp="caption description">
                 <h5>Smart Penguin</h5>
